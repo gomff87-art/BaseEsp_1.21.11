@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "storageesp",
+  "version": "${version}",
+  "name": "StorageESP",
+  "description": "Подсвечивает сундуки, шалкеры, бочки и спавнеры сквозь стены. Клавиша X включает/выключает.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.storageesp.StorageEspClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": ">=1.21.11",
+    "fabric-api": "*"
+  }
+}
